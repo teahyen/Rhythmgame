@@ -168,7 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BitPrefad: {fileID: 7305929187865922724, guid: 314000a9dca56094f8bc3d0511b25f6a, type: 3}
   range: 3
-  Bit: 1
+  Bit: 0.5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cc19a3fa12073942a24894f6c995185, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
   Score: 0
 --- !u!4 &622665806
 Transform:
