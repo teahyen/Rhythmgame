@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     }
     public float speed;
     public int Score;
-
+    public PoolManager pool;
 
     // Update is called once per frame
     void Update()

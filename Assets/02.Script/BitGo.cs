@@ -13,7 +13,7 @@ public class BitGo : MonoBehaviour
         if (transform.position.y < -3)
         {
             GameManager.Instance.Score++;
-            Destroy(gameObject);
+            GameManager.Instance.pool.EnqueueBeat(this.gameObject);
         }
     }
 }
