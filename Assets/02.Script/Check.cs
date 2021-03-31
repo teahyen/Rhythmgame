@@ -4,8 +4,20 @@ using UnityEngine;
 
 public class Check : MonoBehaviour
 {
-    public void OnTrigerEnter2D()
+    [SerializeField]
+    private bool IsBit;
+    [SerializeField]
+    private GameObject Note;
+    private void Start()
     {
+        IsBit = false;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (IsBit = true)
+        {
+
+        }
     }
 }
 
